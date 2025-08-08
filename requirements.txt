@@ -1,0 +1,19 @@
+# Anti GPS System Requirements
+# This project uses only Python standard library modules
+# No external dependencies required
+
+# Core Python modules used:
+# - time
+# - random
+# - math
+# - threading
+# - datetime
+# - json
+# - os
+# - tkinter (for GUI - included in Python standard library)
+
+# Optional: For enhanced functionality, you could add:
+# numpy==1.24.3          # For advanced signal processing
+# matplotlib==3.7.2       # For signal visualization
+# scipy==1.11.1          # For signal analysis
+# pyqt5==5.15.9          # For alternative GUI (optional)

@@ -1,0 +1,15 @@
+{"timestamp": "2025-08-08T19:42:20.912155", "location": "Moscow", "coordinates": "55.756207, 37.618096", "speed": 47.6495130873645, "accuracy": 10.337068875816207}
+{"timestamp": "2025-08-08T19:42:21.913107", "location": "New York", "coordinates": "40.713174, -74.005864", "speed": 23.663299687863088, "accuracy": 15.528350964906089}
+{"timestamp": "2025-08-08T19:42:22.913805", "location": "Moscow", "coordinates": "55.756470, 37.618129", "speed": 20.37302104713653, "accuracy": 13.809070560548427}
+{"timestamp": "2025-08-08T19:42:23.914491", "location": "Moscow", "coordinates": "55.756613, 37.618280", "speed": 6.198064842065632, "accuracy": 9.129709047292664}
+{"timestamp": "2025-08-08T19:42:24.916268", "location": "Paris", "coordinates": "48.857581, 2.352682", "speed": 47.89547681936639, "accuracy": 8.402964190516151}
+{"timestamp": "2025-08-08T19:42:25.919420", "location": "Tokyo", "coordinates": "35.676966, 139.650829", "speed": 24.1219707578212, "accuracy": 11.228265319238512}
+{"timestamp": "2025-08-08T19:42:26.923357", "location": "New York", "coordinates": "40.712153, -74.006587", "speed": 49.22007977029965, "accuracy": 18.738075075300276}
+{"timestamp": "2025-08-08T19:42:27.927118", "location": "London", "coordinates": "51.507927, -0.127372", "speed": 20.233486419263368, "accuracy": 6.037795564949327}
+{"timestamp": "2025-08-08T19:42:28.931384", "location": "Singapore", "coordinates": "1.351960, 103.819369", "speed": 12.485933562794187, "accuracy": 18.839058774199025}
+{"timestamp": "2025-08-08T19:45:09.818874", "location": "Mumbai", "coordinates": "19.076150, 72.878142", "speed": 43.99974046154315, "accuracy": 14.208055523279645}
+{"timestamp": "2025-08-08T19:45:10.820470", "location": "Singapore", "coordinates": "1.352090, 103.820345", "speed": 24.972265290343167, "accuracy": 13.463871863574498}
+{"timestamp": "2025-08-08T19:45:11.821293", "location": "Mumbai", "coordinates": "19.075157, 72.877624", "speed": 34.96950991658012, "accuracy": 11.26073505613848}
+{"timestamp": "2025-08-08T19:45:12.822227", "location": "Singapore", "coordinates": "1.352850, 103.820733", "speed": 40.96850944014893, "accuracy": 14.70529100573378}
+{"timestamp": "2025-08-08T19:45:13.825835", "location": "Tokyo", "coordinates": "35.675616, 139.650553", "speed": 48.10286102745357, "accuracy": 7.821107787432555}
+{"timestamp": "2025-08-08T19:45:14.828619", "location": "Dubai", "coordinates": "25.205391, 55.270564", "speed": 48.22651571373788, "accuracy": 6.1631255829974}
