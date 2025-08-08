@@ -1,293 +1,178 @@
-# 🛡️ Anti GPS System
+<img width="3188" height="1202" alt="image" src="https://github.com/user-attachments/assets/455cf14b-c6af-48c8-b13b-8ae69ff14ec2" />
+Team Name: Zephyr
+Team Members
+- Team Lead: Antony Rajesh Pookodan – Jyothi Engineering College
+- Member 2: Akhil C – Jyothi Engineering College
+Project Description
+Anti Location Tracker is a privacy-focused system that detects and analyzes GPS signals to identify potential tracking threats. It offers real-time protection through location spoofing, signal jamming, frequency hopping, and AES-256 encryption—empowering users to reclaim control over their digital footprint.
+The Problem (that doesn’t exist)
+Every time you walk past a pigeon, how do you know it’s not government-issued surveillance with GPS tracking capabilities? What if your toaster is triangulating your coordinates every time you make a bagel? In a world where even your smart fridge might be snitching on your midnight snack habits, Anti Location Tracker solves the totally real, definitely-not-imagined problem of being tracked by everything—including your own shadow.
+The Solution (that nobody asked for)
+We built a GPS privacy fortress so powerful, it could make a spy satellite cry. With spoofed coordinates that send trackers to the Bermuda Triangle, signal jammers that confuse your smartwatch into thinking it’s in 1997, and encryption so intense it makes your location data look like ancient alien code—Anti Location Tracker is the overengineered, gloriously unnecessary answer to a problem you didn’t know you didn’t have.
 
-A comprehensive GPS signal detection and privacy protection system designed to detect, analyze, and protect against GPS tracking.
+ 🧪 Technical Details
+🖥️ Technologies & Components Used
+💻 For Software:
+- Languages Used
+- Python
+- JavaScript (for optional web-based dashboard)
+- Frameworks Used
+- Tkinter (for GUI)
+- Flask (optional web interface)
+- Libraries Used
+- cryptography – AES-256 
+- random – Location spoofing logic
+- matplotlib – Signal strength visualization
+- datetime – Timestamped logging
+- os, sys – System-level operations
+- Tools Used
+- VS Code – Development
+- Git & GitHub – Version control
+- PyInstaller – Packaging into executable
+- Wireshark (optional) – Signal analysis
+- GPS emulator – Testing spoofed coordinates
 
-## 🎯 Features
+- 🖥️ For Software:
+• 	Languages Used
+• 	Python (core logic and GUI)
+• 	JavaScript (optional web dashboard or visualizations)
+• 	Frameworks Used
+• 	Tkinter (GUI interface)
+• 	Flask (optional web interface
+• 	Libraries Used
+• 	 – AES-256 encryption
+• 	 – Location spoofing logic
+• 	 – Timestamped logging
+• 	 – Signal strength visualization
+• 	,  – System operations
+• 	Tools Used
+• 	VS Code – Development environment
+• 	Git & GitHub – Version control and collaboration
+• 	PyInstaller – Packaging Python scripts into executables
+• 	GPS Emulator – Testing spoofed coordinates
+• 	Wireshark (optional) – Signal packet analysis
 
-### 🔍 **GPS Signal Detection**
-- **Multi-frequency scanning**: L1 (1575.42 MHz), L2 (1227.60 MHz), L5 (1176.45 MHz)
-- **Signal strength analysis**: Real-time signal quality assessment
-- **Threat level assessment**: Automatic threat level classification
-- **Continuous monitoring**: 24/7 GPS signal surveillance
-
-### 🛡️ **Protection Methods**
-
-#### **Location Spoofing**
-- Generate fake GPS coordinates
-- Random location selection from global cities
-- Real-time location masking
-- Privacy protection through location obfuscation
-
-#### **Signal Jamming**
-- GPS frequency interference
-- Signal strength reduction
-- Multi-frequency jamming capability
-- Effectiveness monitoring
-
-#### **Frequency Hopping**
-- Dynamic frequency switching
-- Pattern-based hopping algorithms
-- Interference avoidance
-- Detection evasion
-
-#### **Data Encryption**
-- AES-256 encryption for location data
-- Secure key generation
-- Encrypted data transmission
-- Maximum privacy protection
-
-### 📊 **Protection Levels**
-
-| Level | Methods | Use Case |
-|-------|---------|----------|
-| **Low** | Signal Detection, Location Spoofing | Basic privacy |
-| **Medium** | + Signal Jamming | Enhanced protection |
-| **High** | + Frequency Hopping | Advanced security |
-| **Maximum** | + Encryption | Military-grade protection |
-
-### 🔍 **Detection Modes**
-
-| Mode | Description | Sensitivity |
-|------|-------------|-------------|
-| **Passive** | Minimal interference, stealth monitoring | Low |
-| **Active** | Standard detection and protection | Medium |
-| **Aggressive** | Maximum detection and countermeasures | High |
-
-## 🚀 Quick Start
-
-### **Command Line Version**
-```bash
-python anti_gps.py
-```
-
-### **GUI Version (Recommended)**
-```bash
+🧑‍💻 Commands
+▶️ Run the Project
+# Run the GUI version (recommended)
 python anti_gps_gui.py
-```
 
-## 📋 Installation
-
-1. **Clone or download the project**
-2. **No external dependencies required** - uses only Python standard library
-3. **Run the system**:
-   ```bash
-   python anti_gps_gui.py
-   ```
-
-## 🎮 Usage
-
-### **GUI Interface**
-
-1. **Launch the GUI**:
-   ```bash
-   python anti_gps_gui.py
-   ```
-
-2. **Configure Settings**:
-   - **Protection Level**: Choose from Low, Medium, High, Maximum
-   - **Detection Mode**: Select Passive, Active, or Aggressive
-
-3. **Start Monitoring**:
-   - Click "🚀 Start Monitoring"
-   - Watch real-time signal detection
-   - Monitor threat levels and protection status
-
-4. **View Logs**:
-   - Real-time activity log
-   - Signal detection history
-   - Protection method effectiveness
-
-### **Command Line Interface**
-
-```bash
-# Basic monitoring
+# Run the command-line version
 python anti_gps.py
 
-# Custom protection level
+
+⚙️ Custom Configuration (Command Line)
+# Set protection level
 anti_gps.set_protection_level("high")
 
-# Custom detection mode
+# Set detection mode
 anti_gps.set_detection_mode("aggressive")
-```
 
-## 🔧 Technical Details
 
-### **GPS Frequencies Monitored**
-- **L1 Band**: 1575.42 MHz (Civilian GPS)
-- **L2 Band**: 1227.60 MHz (Military GPS)
-- **L5 Band**: 1176.45 MHz (Safety-of-Life)
 
-### **Signal Analysis**
-- **Signal Strength**: 0.1 - 1.0 scale
-- **Signal Quality**: 0.5 - 0.95 scale
-- **Threat Assessment**: None, Low, Medium, High, Critical
+📄 Project Documentation
+🖥️ For Software:
+- Overview
+Anti Location Tracker is a Python-based system designed to detect GPS signals, assess tracking threats, and apply privacy protection techniques such as spoofing, jamming, and encryption.
+- Modules
+- anti_gps.py: Core logic for signal detection and protection
+- anti_gps_gui.py: GUI interface for user interaction
+- anti_gps_log.txt: Logs of detected signals and protection actions
+- Configuration Options
+- Protection Levels: Low, Medium, High, Maximum
+- Detection Modes: Passive, Active, Aggressive
+- Output
+- Real-time signal monitoring dashboard
+- Threat level alerts
+- Encrypted activity logs
+- Dependencies
+- No external dependencies required
+- Uses Python standard libraries and optional modules like cryptography, matplotlib
 
-### **Protection Mechanisms**
+🧑‍💻 Commands
+▶️ Run the Project
+# Run the GUI version (recommended)
+python anti_gps_gui.py
 
-#### **Location Spoofing**
-```python
-fake_locations = [
-    {"lat": 40.7128, "lon": -74.0060, "name": "New York"},
-    {"lat": 51.5074, "lon": -0.1278, "name": "London"},
-    {"lat": 35.6762, "lon": 139.6503, "name": "Tokyo"},
-    # ... more locations
-]
-```
+# Run the command-line version
+python anti_gps.py
 
-#### **Signal Jamming**
-- **Jamming Power**: 0.6 - 0.95 effectiveness
-- **Success Rate**: >70% power required
-- **Multi-frequency**: Simultaneous jamming
 
-#### **Frequency Hopping**
-- **Patterns**: GPS frequencies, Alternative bands, ISM bands
-- **Intervals**: 0.1 - 0.5 seconds
-- **Evasion**: Detection avoidance algorithms
+⚙️ Custom Configuration (Command Line)
+# Set protection level
+anti_gps.set_protection_level("high")
 
-## 📊 System Status
+# Set detection mode
+anti_gps.set_detection_mode("aggressive")
 
-### **Real-time Monitoring**
-- Active monitoring status
-- Signals detected count
-- Threat level assessment
-- Protection method status
-- Jamming effectiveness
 
-### **Activity Logging**
-- Timestamped events
-- Signal detection logs
-- Protection method results
-- System status changes
-- Error reporting
 
-## 🛡️ Privacy Protection
+📄 Project Documentation
+🖥️ For Software:
+- Overview
+Anti Location Tracker is a Python-based system designed to detect GPS signals, assess tracking threats, and apply privacy protection techniques such as spoofing, jamming, and encryption.
+- Modules
+- anti_gps.py: Core logic for signal detection and protection
+- anti_gps_gui.py: GUI interface for user interaction
+- anti_gps_log.txt: Logs of detected signals and protection actions
+- Configuration Options
+- Protection Levels: Low, Medium, High, Maximum
+- Detection Modes: Passive, Active, Aggressive
+- Output
+- Real-time signal monitoring dashboard
+- Threat level alerts
+- Encrypted activity logs
+- Dependencies
+- No external dependencies required
+- Uses Python standard libraries and optional modules like cryptography, matplotlib
 
-### **Location Privacy**
-- **GPS Spoofing**: Fake coordinates generation
-- **Location Masking**: Real location protection
-- **Coordinate Randomization**: Dynamic location changes
+  🧑‍💻 Commands
+▶️ Run the Project
 
-### **Signal Privacy**
-- **Frequency Jamming**: GPS signal interference
-- **Frequency Hopping**: Dynamic frequency switching
-- **Signal Encryption**: Data protection
+# Run the GUI version (recommended)
+python anti_gps_gui.py
 
-### **Data Privacy**
-- **AES-256 Encryption**: Military-grade encryption
-- **Secure Key Generation**: Random encryption keys
-- **Encrypted Logging**: Protected activity logs
+# Run the command-line version
+python anti_gps.py
 
-## ⚠️ Legal Disclaimer
+⚙️ Custom Configuration (Command Line)
 
-**IMPORTANT**: This system is for educational and research purposes only. GPS jamming may be illegal in many jurisdictions. Users are responsible for complying with local laws and regulations.
+# Set protection level
+anti_gps.set_protection_level("high")
 
-### **Legal Considerations**
-- GPS jamming may be illegal in your area
-- Check local regulations before use
-- Some features may violate telecommunications laws
-- Use responsibly and ethically
+# Set detection mode
+anti_gps.set_detection_mode("aggressive")
 
-## 🔬 Educational Value
 
-### **GPS Technology Learning**
-- GPS signal characteristics
-- Frequency analysis
-- Signal processing concepts
-- Privacy protection methods
+# Run the GUI version (recommended)
+python anti_gps_gui.py
 
-### **Cybersecurity Concepts**
-- Signal detection and analysis
-- Privacy protection techniques
-- Encryption and security
-- Threat assessment
+# Run the command-line version
+python anti_gps.py
 
-### **Radio Frequency Understanding**
-- GPS frequency bands
-- Signal strength measurement
-- Interference techniques
-- Frequency hopping
+📄 Project Documentation
+🖥️ For Software:
+- Overview
+Anti Location Tracker is a Python-based system designed to detect GPS signals, assess tracking threats, and apply privacy protection techniques such as spoofing, jamming, and encryption.
+- Modules
+- anti_gps.py: Core logic for signal detection and protection
+- anti_gps_gui.py: GUI interface for user interaction
+- anti_gps_log.txt: Logs of detected signals and protection actions
+- Configuration Options
+- Protection Levels: Low, Medium, High, Maximum
+- Detection Modes: Passive, Active, Aggressive
+- Output
+- Real-time signal monitoring dashboard
+- Threat level alerts
+- Encrypted activity logs
+- Dependencies
+- No external dependencies required
+- Uses Python standard libraries and optional modules like cryptography, matplotlib
 
-## 📁 File Structure
 
-```
-anti-gps-system/
-├── anti_gps.py          # Main system core
-├── anti_gps_gui.py      # GUI interface
-├── README.md            # Documentation
-├── anti_gps_log.txt     # Activity logs
-└── requirements.txt     # Dependencies (none required)
-```
 
-## 🎯 Use Cases
 
-### **Privacy Protection**
-- Protect location privacy
-- Prevent GPS tracking
-- Maintain anonymity
-- Secure personal data
 
-### **Research & Education**
-- GPS technology study
-- Signal analysis learning
-- Privacy protection research
-- Cybersecurity education
 
-### **Testing & Development**
-- GPS system testing
-- Signal analysis tools
-- Privacy protection development
-- Security system evaluation
 
-## 🔧 Customization
 
-### **Adding New Protection Methods**
-```python
-def custom_protection_method(self):
-    """Add your custom protection method."""
-    # Your protection logic here
-    pass
-```
-
-### **Modifying Detection Parameters**
-```python
-# Adjust signal detection sensitivity
-signal_threshold = 0.2  # Lower = more sensitive
-
-# Modify threat assessment
-threat_criteria = {
-    "critical": {"strength": 2.5, "quality": 0.9},
-    "high": {"strength": 2.0, "quality": 0.8}
-}
-```
-
-## 📈 Performance
-
-### **Detection Accuracy**
-- **Signal Detection**: 95% accuracy
-- **Threat Assessment**: 90% accuracy
-- **Protection Effectiveness**: 85% success rate
-
-### **System Performance**
-- **Response Time**: <100ms
-- **Memory Usage**: <50MB
-- **CPU Usage**: <5% average
-- **Battery Impact**: Minimal
-
-## 🤝 Contributing
-
-Contributions are welcome! Areas for improvement:
-- Additional protection methods
-- Enhanced signal analysis
-- Improved GUI features
-- Better documentation
-- Performance optimizations
-
-## 📄 License
-
-This project is for educational purposes. Use responsibly and in compliance with local laws.
-
----
-
-**🛡️ Protect Your Privacy with Advanced GPS Signal Detection and Protection**
-
-*Remember: Use this system responsibly and in compliance with local regulations.*
